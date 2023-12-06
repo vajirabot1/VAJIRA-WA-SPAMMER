@@ -9,7 +9,7 @@ WhatsApp Crash With one  Message
 ### <p align="center">Commands to run tool in ur terminal
 ***
 
-### DOWNLOAD TERMUX APK
+### DOWNLOAD TERMUX APK⏬
 https://termux.en.uptodown.com/android/download#
 
 
