@@ -10,9 +10,10 @@ WhatsApp Crash With one  Message
 ***
 
 ### DOWNLOAD TERMUX APK
-<a herf="https://termux.en.uptodown.com/android/download#">
-CLICK
-</a>
+https://termux.en.uptodown.com/android/download#
+
+
+
 
 
 ```bash
