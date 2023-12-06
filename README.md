@@ -9,6 +9,12 @@ WhatsApp Crash With one  Message
 ### <p align="center">Commands to run tool in ur terminal
 ***
 
+### DOWNLOAD TERMUX APK
+<a herf="https://termux.en.uptodown.com/android/download#">
+CLICK
+</a>
+
+
 ```bash
 Note : Tool is Made of Educational Purposes only.
        Please try not to harm anyone device 
